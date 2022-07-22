@@ -1,0 +1,4 @@
+Host cori.nersc.gov
+  HostName cori.nersc.gov
+  User lonappan
+  IdentityFile ~/.ssh/nersc 
