@@ -1,6 +1,3 @@
 nersc(){
-     Say Intializing the cori password less login
-     bash ~/Workspace/NERSC_proxy/sshproxy.sh -u $1
-     Say The key is valid till tomorrow
-     Say $(ssh-keygen -L -f ~/.ssh/nersc-cert.pub | grep Valid |tr -s ' ' | cut -d ' ' -f 6 | tr -s 'T' | cut -d 'T' -f 2)
+     bash ~/Workspace/NERSC_proxy/sshproxy.sh -u $(oathtool -b --totp '<key>')
 }
