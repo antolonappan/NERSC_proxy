@@ -230,7 +230,7 @@ pubfile="$idfile.pub"
 # N.B. INPWPROMPT variable is used in Bail() above for when password
 # prompt is interrupted by ctrl-c.  Otherwise terminal gets left in
 # a weird state.
-myuser='lonappan'
+myuser='your_username'
 mypass=$(head -n 1 ~/.mypass)
 
 
