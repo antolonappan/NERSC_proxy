@@ -13,6 +13,6 @@ Password less login for NERSC
 6. Copy the funtion `nersc` in the file __nersc_proxy__ to your `.bashrc` or `.zprofile`, and edit the key from the previous step(remove the angle bracket)
 7. source the `.bashrc` file.
 8. Now execute `nersc` from a new terminal. This will save the ssh keys for 12/24 hrs. 
-9. Now ssh to cori without password.
+9. Now ssh to cori or perlmutter without password.
 10. If you use VScode then add the lines in `vscode` to `.ssh/config` alone with the extension `Remote SSH`.
 11. Also you can add a task in VScode to run the command `nersc` directly from the vscode.
