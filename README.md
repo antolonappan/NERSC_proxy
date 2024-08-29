@@ -14,7 +14,7 @@ Password less login for NERSC
 7. source the `.bashrc` file.
 8. Now execute `nersc` from a new terminal. This will save the ssh keys for 12 hrs. 
 9. Now ssh to cori or perlmutter without password.
-10. If you use VScode then add the lines in the file `vscode` to `.ssh/config`.
+10. If you use VScode then add the lines in the file `sshconfig` to `.ssh/config`.
 11. Install the VScode extension `Remote SSH`.
 12. Also you can add a task in VScode to run the command `nersc` directly from the vscode. Use the `task.json`
 13. Run the task before connecting to the NERSC, you will need to rerun the task after 12 hrs.
